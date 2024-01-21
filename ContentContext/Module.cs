@@ -1,6 +1,8 @@
+using POO.SharedContext;
+
 namespace POO.ContentContext 
 {
-  public class Module
+  public class Module : Base
   {
     public Module()
     {

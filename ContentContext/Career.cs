@@ -5,9 +5,9 @@ namespace POO.ContentContext
   {
     public Career(string title, string url) : base(title, url)
     {
-      Items = new List<CarrerItem>();
+      Items = new List<CareerItem>();
     }
-    public IList<CarrerItem> Items { get; set; }
+    public IList<CareerItem> Items { get; set; }
     public int TotalCourses => Items.Count;
   }
 }
